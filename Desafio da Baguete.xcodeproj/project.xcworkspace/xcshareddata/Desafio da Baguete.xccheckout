@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E7FD3E68-38B9-40B0-9F23-74B1C251AB32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Desafio da Baguete</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>24B4F52742D85A7439590DD6FA4D8F30BDD6BBBD</key>
+		<string>github.com:jbernardo95/desafio-da-baguete-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Desafio da Baguete.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>24B4F52742D85A7439590DD6FA4D8F30BDD6BBBD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jbernardo95/desafio-da-baguete-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>24B4F52742D85A7439590DD6FA4D8F30BDD6BBBD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>24B4F52742D85A7439590DD6FA4D8F30BDD6BBBD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Desafio%20da%20Baguete</string>
+		</dict>
+	</array>
+</dict>
+</plist>
