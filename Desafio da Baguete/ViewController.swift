@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var typeTextLabel: UILabel!
+    @IBOutlet var typeTextLabel: UILabel!    
     @IBOutlet var ingredientsTextLabel: UILabel!
     
     override func viewDidLoad() {
