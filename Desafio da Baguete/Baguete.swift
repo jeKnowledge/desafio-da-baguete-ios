@@ -24,7 +24,12 @@ class Baguete {
         //Data parsing
         var jsonDict = NSJSONSerialization.JSONObjectWithData(jsonData, options: nil, error: &error) as NSDictionary
         
-        self.type = jsonDict.objectForKey("type")! as String
-        self.extras = jsonDict.objectForKey("extras")! as [String]
+        if error != nil {
+            self.type = "Erro ao obter dados do servidor."
+            self.extras = ["Erro ao obter dados do servidor."]
+        } else {
+            self.type = jsonDict.objectForKey("type")! as String
+            self.extras = jsonDict.objectForKey("extras")! as [String]
+        }
     }
 }
