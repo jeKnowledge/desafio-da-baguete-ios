@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D219FA241A0EBC9800EB76B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D219FA231A0EBC9800EB76B4 /* AppDelegate.swift */; };
+		D219FA261A0EBC9800EB76B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D219FA251A0EBC9800EB76B4 /* ViewController.swift */; };
+		D219FA291A0EBC9800EB76B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D219FA271A0EBC9800EB76B4 /* Main.storyboard */; };
+		D219FA2B1A0EBC9800EB76B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D219FA2A1A0EBC9800EB76B4 /* Images.xcassets */; };
+		D219FA2E1A0EBC9800EB76B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D219FA2C1A0EBC9800EB76B4 /* LaunchScreen.xib */; };
+		D219FA3A1A0EBC9800EB76B4 /* Desafio_da_BagueteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D219FA391A0EBC9800EB76B4 /* Desafio_da_BagueteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D219FA341A0EBC9800EB76B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D219FA161A0EBC9800EB76B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D219FA1D1A0EBC9800EB76B4;
+			remoteInfo = "Desafio da Baguete";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D219FA1E1A0EBC9800EB76B4 /* Desafio da Baguete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio da Baguete.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D219FA221A0EBC9800EB76B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D219FA231A0EBC9800EB76B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D219FA251A0EBC9800EB76B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D219FA281A0EBC9800EB76B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D219FA2A1A0EBC9800EB76B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D219FA2D1A0EBC9800EB76B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D219FA331A0EBC9800EB76B4 /* Desafio da BagueteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Desafio da BagueteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D219FA381A0EBC9800EB76B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D219FA391A0EBC9800EB76B4 /* Desafio_da_BagueteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Desafio_da_BagueteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D219FA1B1A0EBC9800EB76B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D219FA301A0EBC9800EB76B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D219FA151A0EBC9800EB76B4 = {
+			isa = PBXGroup;
+			children = (
+				D219FA201A0EBC9800EB76B4 /* Desafio da Baguete */,
+				D219FA361A0EBC9800EB76B4 /* Desafio da BagueteTests */,
+				D219FA1F1A0EBC9800EB76B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D219FA1F1A0EBC9800EB76B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D219FA1E1A0EBC9800EB76B4 /* Desafio da Baguete.app */,
+				D219FA331A0EBC9800EB76B4 /* Desafio da BagueteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D219FA201A0EBC9800EB76B4 /* Desafio da Baguete */ = {
+			isa = PBXGroup;
+			children = (
+				D219FA231A0EBC9800EB76B4 /* AppDelegate.swift */,
+				D219FA251A0EBC9800EB76B4 /* ViewController.swift */,
+				D219FA271A0EBC9800EB76B4 /* Main.storyboard */,
+				D219FA2A1A0EBC9800EB76B4 /* Images.xcassets */,
+				D219FA2C1A0EBC9800EB76B4 /* LaunchScreen.xib */,
+				D219FA211A0EBC9800EB76B4 /* Supporting Files */,
+			);
+			path = "Desafio da Baguete";
+			sourceTree = "<group>";
+		};
+		D219FA211A0EBC9800EB76B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D219FA221A0EBC9800EB76B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D219FA361A0EBC9800EB76B4 /* Desafio da BagueteTests */ = {
+			isa = PBXGroup;
+			children = (
+				D219FA391A0EBC9800EB76B4 /* Desafio_da_BagueteTests.swift */,
+				D219FA371A0EBC9800EB76B4 /* Supporting Files */,
+			);
+			path = "Desafio da BagueteTests";
+			sourceTree = "<group>";
+		};
+		D219FA371A0EBC9800EB76B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D219FA381A0EBC9800EB76B4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D219FA1D1A0EBC9800EB76B4 /* Desafio da Baguete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D219FA3D1A0EBC9800EB76B4 /* Build configuration list for PBXNativeTarget "Desafio da Baguete" */;
+			buildPhases = (
+				D219FA1A1A0EBC9800EB76B4 /* Sources */,
+				D219FA1B1A0EBC9800EB76B4 /* Frameworks */,
+				D219FA1C1A0EBC9800EB76B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio da Baguete";
+			productName = "Desafio da Baguete";
+			productReference = D219FA1E1A0EBC9800EB76B4 /* Desafio da Baguete.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D219FA321A0EBC9800EB76B4 /* Desafio da BagueteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D219FA401A0EBC9800EB76B4 /* Build configuration list for PBXNativeTarget "Desafio da BagueteTests" */;
+			buildPhases = (
+				D219FA2F1A0EBC9800EB76B4 /* Sources */,
+				D219FA301A0EBC9800EB76B4 /* Frameworks */,
+				D219FA311A0EBC9800EB76B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D219FA351A0EBC9800EB76B4 /* PBXTargetDependency */,
+			);
+			name = "Desafio da BagueteTests";
+			productName = "Desafio da BagueteTests";
+			productReference = D219FA331A0EBC9800EB76B4 /* Desafio da BagueteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D219FA161A0EBC9800EB76B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = jeKnowledge;
+				TargetAttributes = {
+					D219FA1D1A0EBC9800EB76B4 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D219FA321A0EBC9800EB76B4 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D219FA1D1A0EBC9800EB76B4;
+					};
+				};
+			};
+			buildConfigurationList = D219FA191A0EBC9800EB76B4 /* Build configuration list for PBXProject "Desafio da Baguete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D219FA151A0EBC9800EB76B4;
+			productRefGroup = D219FA1F1A0EBC9800EB76B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D219FA1D1A0EBC9800EB76B4 /* Desafio da Baguete */,
+				D219FA321A0EBC9800EB76B4 /* Desafio da BagueteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D219FA1C1A0EBC9800EB76B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D219FA291A0EBC9800EB76B4 /* Main.storyboard in Resources */,
+				D219FA2E1A0EBC9800EB76B4 /* LaunchScreen.xib in Resources */,
+				D219FA2B1A0EBC9800EB76B4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D219FA311A0EBC9800EB76B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D219FA1A1A0EBC9800EB76B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D219FA261A0EBC9800EB76B4 /* ViewController.swift in Sources */,
+				D219FA241A0EBC9800EB76B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D219FA2F1A0EBC9800EB76B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D219FA3A1A0EBC9800EB76B4 /* Desafio_da_BagueteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D219FA351A0EBC9800EB76B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D219FA1D1A0EBC9800EB76B4 /* Desafio da Baguete */;
+			targetProxy = D219FA341A0EBC9800EB76B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D219FA271A0EBC9800EB76B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D219FA281A0EBC9800EB76B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D219FA2C1A0EBC9800EB76B4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D219FA2D1A0EBC9800EB76B4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D219FA3B1A0EBC9800EB76B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D219FA3C1A0EBC9800EB76B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D219FA3E1A0EBC9800EB76B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Desafio da Baguete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D219FA3F1A0EBC9800EB76B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Desafio da Baguete/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D219FA411A0EBC9800EB76B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Desafio da BagueteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio da Baguete.app/Desafio da Baguete";
+			};
+			name = Debug;
+		};
+		D219FA421A0EBC9800EB76B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Desafio da BagueteTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Desafio da Baguete.app/Desafio da Baguete";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D219FA191A0EBC9800EB76B4 /* Build configuration list for PBXProject "Desafio da Baguete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D219FA3B1A0EBC9800EB76B4 /* Debug */,
+				D219FA3C1A0EBC9800EB76B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D219FA3D1A0EBC9800EB76B4 /* Build configuration list for PBXNativeTarget "Desafio da Baguete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D219FA3E1A0EBC9800EB76B4 /* Debug */,
+				D219FA3F1A0EBC9800EB76B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D219FA401A0EBC9800EB76B4 /* Build configuration list for PBXNativeTarget "Desafio da BagueteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D219FA411A0EBC9800EB76B4 /* Debug */,
+				D219FA421A0EBC9800EB76B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D219FA161A0EBC9800EB76B4 /* Project object */;
+}
